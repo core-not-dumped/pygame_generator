@@ -8,6 +8,7 @@ The agent uses a local LLM through Ollama to generate game ideas, select the bes
 
 ```bash
 python generate_code.py
+```
 
 ## Workflow
 
