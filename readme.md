@@ -4,6 +4,11 @@ This project is an experimental AI agent that automatically generates simple Pyg
 
 The agent uses a local LLM through Ollama to generate game ideas, select the best candidate, create a detailed game specification, plan the required functions, generate Python source files, validate the code, repair errors, and run the final game in a headless test environment.
 
+## Quick Start
+
+```bash
+python generate_code.py
+
 ## Workflow
 
 1. Generate multiple Pygame game ideas.
