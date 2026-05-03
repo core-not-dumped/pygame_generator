@@ -70,6 +70,10 @@ def generate_detailed_game_spec(selected_candidate: dict, model: str = "qwen2.5-
 
 if __name__ == "__main__":
     
+
+    if not os.path.exists(f'./generated_games/'):
+        os.mkdir(f'./generated_games/')
+    
     # get best candidate
     ideas = generate_game_ideas() # list[dict]
     for idea in ideas:  print(idea["title"], calculate_score(idea))
